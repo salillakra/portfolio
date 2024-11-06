@@ -12,7 +12,7 @@ const font = Poppins({
 export const metadata = {
   title: "Salil Lakra - Portfolio",
   description:
-    "Explore the personal portfolio of Salil Lakra, a Full Stack Developer specializing in modern web frameworks, UI/UX design, and scalable applications. Check out his projects, skills, and more.",
+    "Explore the personal portfolio of Salil Lakra, a Full Stack Developer specializing in modern web frameworks, and scalable applications. Check out his projects, skills, and more.",
 };
 
 export default function RootLayout({ children }) {

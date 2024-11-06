@@ -16,10 +16,10 @@ export default function Page() {
   return (
     <BackgroundBeamsWithCollision className="flex flex-col justify-start">
       <Image
-        className="m-3 rounded-2xl"
-        src="https://c.tenor.com/v8J6lW9NPwgAAAAC/tenor.gif"
+        className="mt-40 w-64 rounded-2xl md:mt-16 md:w-96"
+        src="https://c.tenor.com/Qq5SLHNhhusAAAAd/tenor.gif"
         height={300}
-        width={400}
+        width={300}
         alt="meme"
       />
 
@@ -37,8 +37,11 @@ export default function Page() {
         </div>
       </motion.div>
 
-      <div className="px-2 lg:px-56">
-        <TextGenerateEffect className="text-2xl lg:text-4xl" words={words} />
+      <div className="w-full px-2 lg:px-56">
+        <TextGenerateEffect
+          className="text-center text-2xl lg:text-4xl"
+          words={words}
+        />
       </div>
 
       <div className="m-6 flex gap-4">
