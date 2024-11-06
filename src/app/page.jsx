@@ -27,7 +27,7 @@ export default function Page() {
         initial={{ scale: 0.8, opacity: 0, x: -100 }}
         animate={{ scale: 1, opacity: 1, x: 0 }}
         transition={{ duration: 0.5, type: "spring", stiffness: 260 }}
-        className="relative mx-auto inline-block w-max text-6xl [filter:drop-shadow(0px_1px_3px_rgba(27,_37,_80,_0.14))]"
+        className="relative mx-auto inline-block w-max text-3xl [filter:drop-shadow(0px_1px_3px_rgba(27,_37,_80,_0.14))] lg:text-6xl"
       >
         <div className="absolute left-0 top-[1px] bg-gradient-to-r from-purple-500 via-violet-500 to-pink-500 bg-clip-text bg-no-repeat py-4 text-transparent [text-shadow:0_0_rgba(0,0,0,0.1)]">
           <span className="">{"coming soon".toUpperCase()}</span>
@@ -38,7 +38,7 @@ export default function Page() {
       </motion.div>
 
       <div className="px-2 lg:px-56">
-        <TextGenerateEffect words={words} />
+        <TextGenerateEffect className="text-2xl lg:text-4xl" words={words} />
       </div>
 
       <div className="m-6 flex gap-4">
