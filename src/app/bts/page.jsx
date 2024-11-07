@@ -49,7 +49,7 @@ export default function BTSFanCheck() {
           className="grid place-items-center space-y-4"
         >
           <Image
-            src="https://c.tenor.com/7yGeZwzjmVoAAAAC/tenor.gif"
+            src="https://c.tenor.com/yxGL3a_oVTAAAAAd/tenor.gif"
             alt="BTS fan meme"
             width={400}
             height={400}
