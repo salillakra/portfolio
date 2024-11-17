@@ -6,12 +6,12 @@ import React from "react";
 import { motion } from "framer-motion";
 import { BackgroundGradient } from "@/components/ui/background-gradient";
 import { BackgroundLines } from "@/components/ui/background-lines";
+import { Spotlight } from "@/components/ui/spotlight";
 
 const Hero = ({ className }) => {
   const HelloInDifferntLanguage = [
     "Hello", // English
     "Namaste", // Hindi
-    "Johar", // Santali
     "Hola", // Spanish
     "Bonjour", // French
     "Hallo", // German
@@ -30,7 +30,11 @@ const Hero = ({ className }) => {
   return (
     <>
       <BackgroundLines className={`${className} crelative h-screen`}>
-        <div className="absolute inset-0 flex w-full snap-y snap-mandatory flex-col items-center justify-center gap-5 overflow-y-scroll lg:flex-row lg:gap-3">
+        <Spotlight
+          className="-top-40 left-0 h-screen md:-top-20 md:left-60"
+          fill="white"
+        />
+        <div className="absolute inset-0 flex w-full snap-y snap-mandatory flex-col items-center justify-center gap-5 overflow-y-scroll antialiased lg:flex-row lg:gap-3">
           <BackgroundGradient className="h-64 w-64 lg:h-[25rem] lg:w-[25rem]">
             <div className="flex h-64 w-64 items-center justify-center overflow-hidden rounded-full lg:h-[25rem] lg:w-[25rem]">
               <Image
@@ -52,9 +56,9 @@ const Hero = ({ className }) => {
           >
             <div className="mb-2 text-3xl font-semibold md:text-5xl">
               <span className="text-primary-500">
-                <FlipWords className="" words={HelloInDifferntLanguage} />
+                <FlipWords words={HelloInDifferntLanguage} />
               </span>{" "}
-              there!
+              <span className="-translate-x-12 text-orange-500">there!</span>
             </div>
             <div className="px-2">
               <p className="text-xl lg:text-2xl">
