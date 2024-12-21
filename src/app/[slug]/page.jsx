@@ -1,11 +1,10 @@
 'use client'
 import React, { useEffect } from 'react'
-import { useRouter } from 'next/navigation'
+import { useParams } from 'next/navigation'
 import "./style.css"
 
-const Page = ({ params }) => {
-    const router = useRouter()
-    const { slug } = params
+const Page = () => {
+    const { slug } = useParams()
 
     useEffect(() => {
         const social = {
@@ -16,25 +15,25 @@ const Page = ({ params }) => {
         }
 
         if (social[slug]) {
-            router.replace(social[slug])
+            window.location.href = social[slug]
         } else {
-            router.replace('/')
+            window.location.href = 'https://salillakra.vercel.app'
         }
 
-    }, [router, slug])
+    }, [slug])
     return (
         <div className="area relative">
             <ul className="circles">
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li />
+                <li />
+                <li />
+                <li />
+                <li />
+                <li />
+                <li />
+                <li />
+                <li />
+                <li />
             </ul>
             <div className="flex items-center justify-center h-screen">
                 <div className="text-center">
@@ -45,4 +44,4 @@ const Page = ({ params }) => {
     )
 }
 
-export default page
+export default Page
