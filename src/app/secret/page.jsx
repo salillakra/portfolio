@@ -29,7 +29,7 @@ export default function SecretButton() {
             transition={{ duration: 0.5 }}
           >
             <Image
-              src="https://c.tenor.com/TgUAX5A74sAAAAAd/tenor.gif"
+              src="/tenor.gif"
               alt="secret meme"
               width={400}
               height={400}
