@@ -165,7 +165,7 @@ const HelloPerson = () => {
           </motion.div>
 
           <motion.div
-            className="bg-gray-900 bg-opacity-80 rounded-lg p-6 shadow-xl border border-cyan-500 hover:scale-105 transition-transform"
+            className="bg-gray-900 bg-opacity-80 rounded-lg p-6 shadow-xl border border-cyan-500 transition-transform"
             whileHover={{ scale: 1.1 }}
           >
             <h3 className="text-xl font-bold text-cyan-400">Tech Blogs</h3>
