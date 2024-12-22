@@ -38,7 +38,7 @@ salil: Developer = Developer(
         "Full-stack development",
         "Creating projects I'm proud of"
     ],
-    relationship_status="Single 💔 (but vibing)",
+    relationship_status="Single & Happy 😉",
     why_code="I'm eager to see my projects come to life and proudly say, 'I built this!'",
     dream_scenarios=[
         "Coding by a peaceful lake or river 🌊",
@@ -51,7 +51,7 @@ print(salil)
 
     const output = `Salil Lakra is a passionate developer who loves Full-stack development, Creating projects I'm proud of. Their hobbies include Singing 🎤, Dancing 💃, Acting 🎭, Cooking 🍳, Coding 💻, Hanging out with friends 👫. 
 They code because: 'I'm eager to see my projects come to life and proudly say, 'I built this!''. 
-Dream scenarios include: Coding by a peaceful lake or river 🌊, Cooking food near the water 🍲. Relationship status? Single 💔 (but vibing).
+Dream scenarios include: Coding by a peaceful lake or river 🌊, Cooking food near the water 🍲. Relationship status? Single & Happy 😉..
 
 
 ** Process exited - Return Code: 0 **
@@ -62,7 +62,7 @@ Press Enter to exit terminal`;
 
             {/* output */}
             <h2 className="text-xl mt-5 font-bold my-4">Output:</h2>
-            <CodeBlock language={"text"} filename={" >>> python3 salillakra.py"} code={output} />
+            <CodeBlock language={"text"} filename={""} code={output} />
         </div>
     );
 }

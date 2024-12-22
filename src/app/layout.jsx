@@ -10,7 +10,7 @@ const font = Poppins({
 });
 
 export const metadata = {
-  title: "Salil Lakra - Portfolio",
+  title: "Salil Lakra | Full Stack Developer Portfolio - Projects, Skills & Expertise", 
   description:
     "Explore the personal portfolio of Salil Lakra, a Full Stack Developer specializing in modern web frameworks, and scalable applications. Check out his projects, skills, and more.",
   keywords: "Salil Lakra, Full Stack Developer, web development, portfolio, projects, skills",
@@ -36,7 +36,6 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
         <meta name="keywords" content={metadata.keywords} />
         <meta name="author" content={metadata.author} />
@@ -61,7 +60,7 @@ export default function RootLayout({ children }) {
           defaultTheme="dark"
           enableSystem
           disableTransitionOnChange
-        ></ThemeProvider>
+        />
         {children}
       </body>
     </html>
