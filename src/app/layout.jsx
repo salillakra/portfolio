@@ -1,6 +1,9 @@
 import { Poppins } from "next/font/google";
 import { ThemeProvider } from "@/components/theme-provider";
 import "./globals.css";
+import { Toaster } from "@/components/ui/toaster"
+
+
 
 const font = Poppins({
   display: "swap",
@@ -10,7 +13,7 @@ const font = Poppins({
 });
 
 export const metadata = {
-  title: "Salil Lakra | Full Stack Developer Portfolio - Projects, Skills & Expertise", 
+  title: "Salil Lakra | Full Stack Developer Portfolio - Projects, Skills & Expertise",
   description:
     "Explore the personal portfolio of Salil Lakra, a Full Stack Developer specializing in modern web frameworks, and scalable applications. Check out his projects, skills, and more.",
   keywords: "Salil Lakra, Full Stack Developer, web development, portfolio, projects, skills",
@@ -61,7 +64,8 @@ export default function RootLayout({ children }) {
           enableSystem
           disableTransitionOnChange
         />
-        {children}
+          {children}
+          <Toaster />
       </body>
     </html>
   );

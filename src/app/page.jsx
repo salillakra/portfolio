@@ -12,6 +12,7 @@ import Link from "next/link";
 import Footer from "../components/ui/Footer";
 import InfoCode from "../components/ui/InfoCode";
 import Image from "next/image";
+import ContactForm from "@/components/ui/ContactForm";
 
 const HelloPerson = () => {
   return (
@@ -70,7 +71,7 @@ const HelloPerson = () => {
           </p>
           {/* bio*/}
           <p className="mt-3 text-xs text-gray-500 max-w-md">
-            A softie, who write code
+            A softie who writes code.
           </p>
         </motion.div>
 
@@ -189,7 +190,10 @@ const HelloPerson = () => {
         </motion.div>
         <InfoCode />
 
+        {/* Contact Form */}
+        <ContactForm />
         {/* Before You Go Section */}
+
         <div
           className="mt-16 text-center z-10"
         >
