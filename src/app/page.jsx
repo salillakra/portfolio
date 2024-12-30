@@ -103,7 +103,7 @@ const HelloPerson = () => {
           <TooltipProvider>
             <Tooltip>
               <TooltipTrigger asChild><a
-                href="https://www.linkedin.com/in/salil-lakra-42b504323?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                href="https://www.linkedin.com/in/salillakra?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                 className="flex items-center justify-center bg-gray-800 text-white py-3 px-4 rounded-lg shadow-lg hover:bg-blue-500 hover:scale-105 transition-transform"
               >
                 <FaLinkedin className="mr-2 text-2xl" /> LinkedIn

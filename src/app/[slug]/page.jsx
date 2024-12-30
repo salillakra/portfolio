@@ -10,7 +10,7 @@ const Page = () => {
         const social = {
             github: 'https://www.github.com/salillakra',
             ig: 'https://www.instagram.com/officialsalillakra',
-            linkedin: 'https://www.linkedin.com/in/salil-lakra-42b504323?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+            linkedin: 'https://www.linkedin.com/in/salillakra?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
             twitter: 'https://www.twitter.com/salillakra223'
         }
 
